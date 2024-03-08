@@ -326,6 +326,22 @@
     [
       "c1ccca3c-4648-4b8e-86a1-690c24c5f13e",
       ""
+    ],
+    [
+      "1daa12b0-ccec-42a7-b3b8-2333aafbd367",
+      "Digital Output"
+    ],
+    [
+      "3f7b9377-485e-4135-be49-570466b5bb08",
+      "Digital Output"
+    ],
+    [
+      "d1a2137e-7321-491e-b4c1-a40d594ed11a",
+      "Digital Output"
+    ],
+    [
+      "622092df-af96-403b-81ea-4936d38e5a4c",
+      "Digital Output"
     ]
   ],
   "text_variables": {}
