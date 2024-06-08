@@ -1060,7 +1060,11 @@
     (property "Value" "NMOS" (at 63.5 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+<<<<<<< Updated upstream
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 73.66 62.23 0)
+=======
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 73.66 62.23 0)
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf" (at 68.58 77.47 0)
@@ -1108,7 +1112,11 @@
     (property "Value" "1k" (at 72.39 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+<<<<<<< Updated upstream
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 69.342 38.1 90)
+=======
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 69.342 34.29 90)
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 71.12 38.1 0)
@@ -1221,7 +1229,11 @@
     (property "Value" "330" (at 26.035 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+<<<<<<< Updated upstream
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 24.13 66.548 90)
+=======
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" (at 24.13 66.548 90)
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 24.13 64.77 0)
@@ -1300,7 +1312,11 @@
     (property "Value" "PMOS" (at 48.895 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+<<<<<<< Updated upstream
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 48.26 41.91 0)
+=======
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 48.26 41.91 0)
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf" (at 43.18 26.67 0)
@@ -1533,7 +1549,11 @@
     (property "Value" "330" (at 60.325 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+<<<<<<< Updated upstream
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 58.42 66.548 90)
+=======
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder" (at 58.42 66.548 90)
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 64.77 0)
@@ -1682,7 +1702,11 @@
     (property "Value" "NMOS" (at 29.21 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+<<<<<<< Updated upstream
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 39.37 62.23 0)
+=======
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 39.37 62.23 0)
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf" (at 34.29 77.47 0)
@@ -1768,7 +1792,11 @@
     (property "Value" "PMOS" (at 83.185 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
+<<<<<<< Updated upstream
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 82.55 45.72 0)
+=======
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 82.55 41.91 0)
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf" (at 77.47 30.48 0)
