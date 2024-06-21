@@ -5023,7 +5023,7 @@
     (fill (type none))
     (uuid 19cbeb75-6164-4060-919a-7b57db66a5d9)
   )
-  (rectangle (start 13.97 143.51) (end 83.82 180.34)
+  (rectangle (start 13.97 144.78) (end 83.82 181.61)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 279940dc-a692-4c97-b718-4b7fbc2d44b2)
