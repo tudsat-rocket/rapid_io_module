@@ -10685,6 +10685,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/3dmodels/430450400.step"
+      (offset (xyz 1.5 4 4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 0))
+    )
   )
 
   (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (layer "B.Cu")
@@ -11284,6 +11289,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/3dmodels/430450400.step"
+      (offset (xyz 1.5 4 4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 0))
+    )
   )
 
   (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal" (layer "B.Cu")
@@ -11370,6 +11380,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3dmodels/430450600.stp"
+      (offset (xyz 3 4 4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 0))
     )
   )
 
@@ -11536,6 +11551,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3dmodels/430450400.step"
+      (offset (xyz 1.5 4 4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 0))
     )
   )
 
@@ -11874,6 +11894,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/3dmodels/430450600.stp"
+      (offset (xyz 3 4 4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 0))
+    )
   )
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "B.Cu")
@@ -12129,6 +12154,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3dmodels/PSM1365 Series SMD Molding inductor.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -12526,6 +12556,11 @@
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3dmodels/430450400.step"
+      (offset (xyz 1.5 4 4))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 0))
     )
   )
 
