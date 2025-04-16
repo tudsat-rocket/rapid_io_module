@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -50,7 +50,7 @@
       "shapes"
     ],
     "visible_layers": "00000000_00000000_0ffcffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "git": {
     "repo_password": "",
@@ -94,16 +94,16 @@
     "col_widths": [
       186,
       171,
-      112,
-      87,
-      112,
-      122,
-      112,
+      113,
+      88,
+      113,
+      123,
+      113,
       91,
-      112,
-      112,
-      112,
-      112
+      113,
+      113,
+      113,
+      113
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
