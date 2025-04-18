@@ -1710,7 +1710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0691c2ca-d47d-440b-929d-a7e44e24d2c2")
-		(property "Reference" "R35"
+		(property "Reference" "R44"
 			(at 20.32 92.71 0)
 			(effects
 				(font
@@ -1782,11 +1782,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R41")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R35")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -1931,7 +1931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "226860be-d160-4b1d-88f7-b282a1c132d3")
-		(property "Reference" "R32"
+		(property "Reference" "R41"
 			(at 72.39 60.96 0)
 			(effects
 				(font
@@ -2003,11 +2003,92 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R38")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R32")
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 80.01 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29a49f19-d2c6-4da0-9f78-4227d82497cd")
+		(property "Reference" "D21"
+			(at 82.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 80.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010230_MSKSEMI-1N4007WS_C7528872.pdf"
+			(at 80.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Independent Type 1A 1kV SOD-323 Diodes - General Purpose ROHS"
+			(at 80.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C7528872"
+			(at 80.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af667d96-1346-47db-8d68-dc4ea8defac7")
+		)
+		(pin "2"
+			(uuid "a24d939e-582b-4e31-b035-be56c2f4ea9a")
+		)
+		(instances
+			(project "frodo_io_module"
+				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -2022,7 +2103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cc9b0af-68a1-4fde-8b04-0b9873f2f515")
-		(property "Reference" "R31"
+		(property "Reference" "R40"
 			(at 38.1 60.96 0)
 			(effects
 				(font
@@ -2094,11 +2175,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R37")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R31")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2114,7 +2195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30965e2d-2639-4773-9ae1-9ce2d5d6d6e6")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0116"
 			(at 36.83 105.41 0)
 			(effects
 				(font
@@ -2165,11 +2246,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0103")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR097")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -2184,7 +2265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32e0de9f-ece1-4ec1-ac12-9e6ec5585976")
-		(property "Reference" "R33"
+		(property "Reference" "R42"
 			(at 26.035 83.82 90)
 			(effects
 				(font
@@ -2256,11 +2337,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R39")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R33")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -2268,34 +2349,23 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 80.01 88.9 270)
+		(at 45.72 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3ae4ff13-a1a1-4793-ac1d-66fc3f4b9bd6")
-		(property "Reference" "D17"
-			(at 74.93 88.9 90)
+		(uuid "3697b2c8-bab2-469c-b672-33bca916798c")
+		(property "Reference" "D23"
+			(at 48.26 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "D"
-			(at 82.55 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 80.01 88.9 0)
+			(at 41.91 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,8 +2373,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 80.01 88.9 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 45.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,8 +2382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 80.01 88.9 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010230_MSKSEMI-1N4007WS_C7528872.pdf"
+			(at 45.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,8 +2391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 80.01 88.9 0)
+		(property "Description" "Independent Type 1A 1kV SOD-323 Diodes - General Purpose ROHS"
+			(at 45.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,35 +2400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 80.01 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C167645"
-			(at 80.01 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 80.01 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "PMEG3020EH,115"
-			(at 80.01 88.9 0)
+		(property "LCSC#" "C7528872"
+			(at 45.72 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2367,19 +2410,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "da096d29-fd23-4e47-b16b-3b4111be0653")
+			(uuid "48615725-5eb1-411a-8532-430ca980246c")
 		)
 		(pin "2"
-			(uuid "7a9a6f44-91e0-4c86-ba1a-298c05ca29d4")
+			(uuid "e8a34873-2bcf-4f7e-b0c7-702a6a3d8bcd")
 		)
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "D19")
+					(reference "D24")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "D17")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -2395,7 +2438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "411abec9-37f9-491e-b674-3a5e7e5e7b0a")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0120"
 			(at 80.01 105.41 0)
 			(effects
 				(font
@@ -2446,11 +2489,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0107")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR0101")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -2466,7 +2509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "505aa6f7-6162-443b-b963-83c90bfe5e89")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0115"
 			(at 19.05 105.41 0)
 			(effects
 				(font
@@ -2517,11 +2560,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0102")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR096")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -2661,7 +2704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c22341-038b-49bd-906d-024894b77827")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0118"
 			(at 53.34 105.41 0)
 			(effects
 				(font
@@ -2712,130 +2755,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0105")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 45.72 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "754f3e9c-16ed-4797-9e3b-ec4253befdd8")
-		(property "Reference" "D16"
-			(at 40.64 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 48.26 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 45.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 45.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C167645"
-			(at 45.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 45.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "PMEG3020EH,115"
-			(at 45.72 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5f04548-f30d-4a65-a1d0-f4b2e8c86b88")
-		)
-		(pin "2"
-			(uuid "291e2274-e832-4b77-873b-033e2fbe93ba")
-		)
-		(instances
-			(project "frodo_io_module"
-				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "D18")
-					(unit 1)
-				)
-				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "D16")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -2850,7 +2774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f771c8d-7092-4596-bfa5-5e424d18542c")
-		(property "Reference" "R34"
+		(property "Reference" "R43"
 			(at 60.325 83.82 90)
 			(effects
 				(font
@@ -2922,11 +2846,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R40")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R34")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -2942,7 +2866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad524738-a6fa-49c2-8ecc-74b0015dc2cc")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0119"
 			(at 71.12 105.41 0)
 			(effects
 				(font
@@ -2993,11 +2917,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0106")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR0100")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -3142,7 +3066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dad552e4-16e4-477a-aa03-16d648b0babf")
-		(property "Reference" "R36"
+		(property "Reference" "R45"
 			(at 54.61 92.71 0)
 			(effects
 				(font
@@ -3214,11 +3138,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R42")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R36")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -3234,7 +3158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eef45e6b-02d4-4d4e-bd18-4f80a7ae5ce1")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0117"
 			(at 45.72 105.41 0)
 			(effects
 				(font
@@ -3285,11 +3209,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0104")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR098")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
