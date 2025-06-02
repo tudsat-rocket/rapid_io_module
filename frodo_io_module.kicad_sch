@@ -9650,6 +9650,16 @@
 		)
 		(uuid "a35d7108-bf15-41ee-bcbc-23e14a7320d6")
 	)
+	(text "@todo: swaped AIN2 und AIN3 for better routing"
+		(exclude_from_sim no)
+		(at 261.62 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab586aee-97de-4cac-945c-19d5717e2395")
+	)
 	(text "Isense"
 		(exclude_from_sim no)
 		(at 14.732 207.264 0)
@@ -17648,7 +17658,7 @@
 	)
 	(global_label "AIN3"
 		(shape input)
-		(at 299.72 82.55 180)
+		(at 299.72 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17658,7 +17668,7 @@
 		)
 		(uuid "8ebbaf3d-02e7-4ba4-8997-f0aaa7704cfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.5014 82.55 0)
+			(at 292.5014 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18066,7 +18076,7 @@
 	)
 	(global_label "AIN2"
 		(shape input)
-		(at 299.72 80.01 180)
+		(at 299.72 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18076,7 +18086,7 @@
 		)
 		(uuid "b02f37dc-4b2d-457b-9bed-f87a87055e6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.5014 80.01 0)
+			(at 292.5014 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29339,7 +29349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "v_main_pre_sense"
+		(property "Value" "main_voltage"
 			(at 60.96 172.7199 90)
 			(effects
 				(font
