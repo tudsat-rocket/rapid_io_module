@@ -1153,6 +1153,12 @@
 		(uuid "6a8f623c-087f-436d-9e84-bfa8f823252e")
 	)
 	(junction
+		(at 72.39 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbd0ff7a-d176-4973-8ce9-83ce2ef47435")
+	)
+	(junction
 		(at 45.72 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1176,12 +1182,6 @@
 		(color 0 0 0 0)
 		(uuid "e769951e-6a40-48a8-a8c4-583e73a50286")
 	)
-	(junction
-		(at 71.12 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2a6dd54-f21e-473f-8916-657832d14e95")
-	)
 	(wire
 		(pts
 			(xy 36.83 67.31) (xy 36.83 66.04)
@@ -1201,6 +1201,16 @@
 			(type default)
 		)
 		(uuid "0f1f28e7-25b1-400d-a232-25fbd3119322")
+	)
+	(wire
+		(pts
+			(xy 63.5 88.9) (xy 62.23 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10379deb-3a42-4eb8-876c-9b9e43fa5be4")
 	)
 	(wire
 		(pts
@@ -1261,6 +1271,26 @@
 			(type default)
 		)
 		(uuid "51919efe-e203-48e8-aad0-85f472e8e822")
+	)
+	(wire
+		(pts
+			(xy 72.39 67.31) (xy 71.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfed587-acbf-4ce9-b9bc-da836b2c2daa")
+	)
+	(wire
+		(pts
+			(xy 63.5 91.44) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0c1211-dd45-41c1-8ed0-b1683dcc20d6")
 	)
 	(wire
 		(pts
@@ -1364,7 +1394,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 67.31) (xy 71.12 83.82)
+			(xy 72.39 67.31) (xy 72.39 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1401,6 +1431,16 @@
 			(type default)
 		)
 		(uuid "a9e66df3-181f-4e34-933c-eb1124a525ba")
+	)
+	(wire
+		(pts
+			(xy 71.12 95.25) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b04bc8b5-f18e-4d91-afa7-0713a00f8670")
 	)
 	(wire
 		(pts
@@ -1444,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 93.98) (xy 71.12 99.06)
+			(xy 72.39 96.52) (xy 72.39 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1461,16 +1501,6 @@
 			(type default)
 		)
 		(uuid "d9d404b7-8511-491b-90c0-4a74cf43c35a")
-	)
-	(wire
-		(pts
-			(xy 71.12 67.31) (xy 72.39 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e15827f4-e0e7-4d35-ac94-ccabc351e567")
 	)
 	(wire
 		(pts
@@ -1504,7 +1534,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 88.9) (xy 63.5 88.9)
+			(xy 63.5 91.44) (xy 64.77 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1521,6 +1551,16 @@
 			(type default)
 		)
 		(uuid "ff907b80-9c3f-4ac5-a30e-af615435cc41")
+	)
+	(wire
+		(pts
+			(xy 72.39 95.25) (xy 71.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc6abd9-1477-4ca5-a36a-408a57904bd0")
 	)
 	(hierarchical_label "OUT1"
 		(shape output)
@@ -1794,7 +1834,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 68.58 88.9 0)
+		(at 69.85 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1802,7 +1842,7 @@
 		(dnp no)
 		(uuid "2151d11a-1d9e-4ccf-9bc0-5ddce54dba55")
 		(property "Reference" "Q4"
-			(at 63.5 91.44 0)
+			(at 64.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1851,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 63.5 93.98 0)
+			(at 64.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1860,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 73.66 86.36 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +1869,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf"
-			(at 68.58 101.6 0)
+			(at 69.85 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +1878,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 88.9 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +1887,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 68.58 106.045 0)
+			(at 69.85 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +1896,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 68.58 107.95 0)
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1905,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 68.58 104.14 0)
+			(at 69.85 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1914,7 @@
 			)
 		)
 		(property "LCSC#" "C20917"
-			(at 68.58 88.9 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1923,7 @@
 			)
 		)
 		(property "Manufacturer" "Alpha & Omega Semicon"
-			(at 68.58 88.9 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +1932,7 @@
 			)
 		)
 		(property "Part#" "AO3400A"
-			(at 68.58 88.9 0)
+			(at 69.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

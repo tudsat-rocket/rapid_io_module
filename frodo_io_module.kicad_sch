@@ -9151,6 +9151,16 @@
 		)
 		(uuid "2e19c29d-eb7a-4168-b071-6918b382e04a")
 	)
+	(text "14, 15 mit 22, 23 getauscht"
+		(exclude_from_sim no)
+		(at 387.604 52.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "429066b0-abc0-4145-9707-d5ddf407e5f5")
+	)
 	(text "COM3\n-UART\n-ADC"
 		(exclude_from_sim no)
 		(at 94.742 94.996 0)
@@ -15248,7 +15258,7 @@
 	)
 	(global_label "I_sense_1"
 		(shape input)
-		(at 342.9 64.77 0)
+		(at 342.9 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15258,7 +15268,7 @@
 		)
 		(uuid "00274bad-2740-4a6f-a004-b863e22c6dd9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.0171 64.77 0)
+			(at 355.0171 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15468,7 +15478,7 @@
 	)
 	(global_label "AIN1"
 		(shape input)
-		(at 342.9 52.07 0)
+		(at 342.9 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15478,7 +15488,7 @@
 		)
 		(uuid "19269ffd-125c-4f52-a6bb-cf6116aa887b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.1186 52.07 0)
+			(at 350.1186 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16458,7 +16468,7 @@
 	)
 	(global_label "AIN0"
 		(shape input)
-		(at 342.9 49.53 0)
+		(at 342.9 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16468,7 +16478,7 @@
 		)
 		(uuid "679a3aaa-ce3d-4307-902d-7a7891df060c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.1186 49.53 0)
+			(at 350.1186 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17228,7 +17238,7 @@
 	)
 	(global_label "I_sense_2"
 		(shape input)
-		(at 342.9 67.31 0)
+		(at 342.9 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17238,7 +17248,7 @@
 		)
 		(uuid "aa3567c2-2180-4ff5-9a00-c1450dade748")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.0171 67.31 0)
+			(at 355.0171 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
