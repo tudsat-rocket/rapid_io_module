@@ -1128,6 +1128,17 @@
 		)
 		(uuid "3265aa04-2b5a-4a77-bc6b-6eae5d967be9")
 	)
+	(text "@TODO:\nfix mosfet rotation issue!!!"
+		(exclude_from_sim no)
+		(at 40.64 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4cfc99e-ad76-4803-bc3f-2eeccf1074b8")
+	)
 	(junction
 		(at 71.12 57.15)
 		(diameter 0)

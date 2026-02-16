@@ -9500,7 +9500,7 @@
 	)
 	(text "@todo RC filter instead of farride beads?"
 		(exclude_from_sim no)
-		(at 35.814 80.518 0)
+		(at 124.206 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)

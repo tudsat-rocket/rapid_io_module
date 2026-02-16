@@ -46236,6 +46236,19 @@
 		(layer "User.4")
 		(uuid "87d80689-3747-47f9-8a16-3b729993dbe6")
 	)
+	(gr_text "@TODO:\nfix mosfet rotation issue!!!"
+		(at 117.5 91.75 0)
+		(layer "F.Cu")
+		(uuid "61e15b7f-01f7-48c5-97a0-3b102e9dc866")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+"
 		(at 105.25 119 270)
 		(layer "B.SilkS")
