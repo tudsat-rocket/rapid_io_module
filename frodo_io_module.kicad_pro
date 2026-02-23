@@ -656,6 +656,18 @@
     [
       "0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54",
       "Digital Output1"
+    ],
+    [
+      "b9f805af-f42c-49d8-9c2b-cbc55b6b7bfe",
+      "i_sensing"
+    ],
+    [
+      "0381ad7c-a4fe-46cf-80e9-20458dbb02ae",
+      "i_sensing1"
+    ],
+    [
+      "a08ab53d-4526-434c-9a86-79476ca69f41",
+      "i_sensing2"
     ]
   ],
   "text_variables": {}
