@@ -1,0 +1,167 @@
+(footprint "L_Wurth_WE-PD2-7850"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Unshielded Power Inductor, body 7.8x7x4.95mm, https://www.we-online.com/en/components/products/WE-PD2#/articles/WE-PD2-7850")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bdf645d2-5c16-4671-9aa9-efe36ee5424d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-PD2-7850"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c170389c-f0d2-4a37-8fa1-81ff6a1a1bf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76c3d531-eb88-4e44-9372-0726208e21be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10bca575-f808-4e5a-b17d-4f318b75bfe6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.9 4.01)
+		(end 3.9 4.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd6e44f2-b662-44f9-a1ce-c49c92085189")
+	)
+	(fp_line
+		(start 0 -4.01)
+		(end 3.9 -4.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "045de4de-80f1-445e-92e8-569eaa21e370")
+	)
+	(fp_rect
+		(start -4.25 -4)
+		(end 4.25 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0800ee65-31d6-45d4-9521-46ee20cbf59b")
+	)
+	(fp_line
+		(start -1.95 -3.5)
+		(end 1.95 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9b199e8-bee1-45d0-91f2-fda372d40f86")
+	)
+	(fp_line
+		(start -1.95 3.5)
+		(end 1.95 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b692f373-edc5-4748-8a25-7f6c88be5b45")
+	)
+	(fp_arc
+		(start -1.95 3.5)
+		(mid -3.9 0)
+		(end -1.95 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4af78c06-ea87-4328-851d-3b14ec2bee9f")
+	)
+	(fp_arc
+		(start 1.95 -3.5)
+		(mid 3.9 0)
+		(end 1.95 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8387dbca-2923-4910-8f06-3361badb7c30")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "788b4f20-5132-44d5-b3cd-4fb058486c04")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5 0)
+		(size 3 7.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ffefb6a0-8cfd-4a90-ac73-ff42ca8126c0")
+	)
+	(pad "2" smd rect
+		(at 2.5 0)
+		(size 3 7.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c2efa71f-d8bf-4c18-8457-bef52aa72a0b")
+	)
+	(embedded_fonts no)
+	(model "${WE_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-PD2-7850.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
