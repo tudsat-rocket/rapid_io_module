@@ -2242,7 +2242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0691c2ca-d47d-440b-929d-a7e44e24d2c2")
-		(property "Reference" "R58"
+		(property "Reference" "R57"
 			(at 22.86 66.04 0)
 			(effects
 				(font
@@ -2313,11 +2313,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R66")
+					(reference "R67")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R58")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -2332,7 +2332,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "16fc5d04-7697-4305-b4de-ec8f86711de3")
-		(property "Reference" "R54"
+		(property "Reference" "R51"
 			(at 56.134 60.452 0)
 			(effects
 				(font
@@ -2392,11 +2392,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R62")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R54")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -2411,7 +2411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29a49f19-d2c6-4da0-9f78-4227d82497cd")
-		(property "Reference" "D14"
+		(property "Reference" "D10"
 			(at 114.3 62.23 0)
 			(effects
 				(font
@@ -2490,11 +2490,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "D18")
+					(reference "D14")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "D14")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2509,7 +2509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b409e7c-a4f8-4420-ae8a-8c227fc09854")
-		(property "Reference" "R32"
+		(property "Reference" "R53"
 			(at 62.23 59.69 0)
 			(effects
 				(font
@@ -2580,11 +2580,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R72")
+					(reference "R63")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R32")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -2600,7 +2600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30965e2d-2639-4773-9ae1-9ce2d5d6d6e6")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0106"
 			(at 38.1 78.74 0)
 			(effects
 				(font
@@ -2651,11 +2651,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0127")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR0119")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -2670,7 +2670,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32e0de9f-ece1-4ec1-ac12-9e6ec5585976")
-		(property "Reference" "R56"
+		(property "Reference" "R55"
 			(at 28.575 57.15 90)
 			(effects
 				(font
@@ -2741,11 +2741,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R64")
+					(reference "R65")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R56")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -2760,7 +2760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3697b2c8-bab2-469c-b672-33bca916798c")
-		(property "Reference" "D13"
+		(property "Reference" "D9"
 			(at 49.53 62.23 0)
 			(effects
 				(font
@@ -2839,11 +2839,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "D17")
+					(reference "D13")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "D13")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -2859,7 +2859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "411abec9-37f9-491e-b674-3a5e7e5e7b0a")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0111"
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -2910,11 +2910,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0132")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR0124")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3035,7 +3035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "505aa6f7-6162-443b-b963-83c90bfe5e89")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0105"
 			(at 21.59 78.74 0)
 			(effects
 				(font
@@ -3086,11 +3086,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0126")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR0118")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -3229,7 +3229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62c22341-038b-49bd-906d-024894b77827")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0109"
 			(at 87.63 78.74 0)
 			(effects
 				(font
@@ -3280,11 +3280,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0130")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR0122")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -3300,7 +3300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "719477b2-5bce-4786-a415-aad27190119e")
-		(property "Reference" "D15"
+		(property "Reference" "D11"
 			(at 55.118 65.1418 90)
 			(effects
 				(font
@@ -3398,11 +3398,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "D19")
+					(reference "D15")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "D15")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -3417,7 +3417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f771c8d-7092-4596-bfa5-5e424d18542c")
-		(property "Reference" "R57"
+		(property "Reference" "R56"
 			(at 94.615 57.15 90)
 			(effects
 				(font
@@ -3488,11 +3488,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R65")
+					(reference "R66")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R57")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -3507,7 +3507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9de637b9-9e4d-4120-acf8-902979b5434a")
-		(property "Reference" "R52"
+		(property "Reference" "R49"
 			(at 40.894 36.322 0)
 			(effects
 				(font
@@ -3567,11 +3567,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R60")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R52")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -3587,7 +3587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac00e443-8d35-4179-b703-aff1a7cc686d")
-		(property "Reference" "D16"
+		(property "Reference" "D12"
 			(at 121.158 65.1418 90)
 			(effects
 				(font
@@ -3685,11 +3685,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "D20")
+					(reference "D16")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "D16")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3705,7 +3705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad524738-a6fa-49c2-8ecc-74b0015dc2cc")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0110"
 			(at 104.14 78.74 0)
 			(effects
 				(font
@@ -3756,11 +3756,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0131")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR0123")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -3775,7 +3775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be977294-b9e7-4d07-85de-fdd51fea1f72")
-		(property "Reference" "R73"
+		(property "Reference" "R54"
 			(at 129.54 59.69 0)
 			(effects
 				(font
@@ -3846,11 +3846,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R74")
+					(reference "R64")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R73")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -3865,7 +3865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5720d55-dfc1-432a-8a17-0a0af94f437e")
-		(property "Reference" "R53"
+		(property "Reference" "R50"
 			(at 106.934 36.322 0)
 			(effects
 				(font
@@ -3926,11 +3926,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R61")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R53")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -3946,7 +3946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfddfc72-2892-4e36-99b2-7d4898a43008")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0108"
 			(at 53.34 78.74 0)
 			(effects
 				(font
@@ -3997,11 +3997,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0129")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR0121")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -4122,7 +4122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8697711-571d-48d4-bbd3-0ec1f55fb4f9")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0112"
 			(at 119.38 78.74 0)
 			(effects
 				(font
@@ -4173,11 +4173,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0133")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR0125")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -4192,7 +4192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dad552e4-16e4-477a-aa03-16d648b0babf")
-		(property "Reference" "R59"
+		(property "Reference" "R58"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -4263,11 +4263,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R67")
+					(reference "R68")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R59")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -4283,7 +4283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eef45e6b-02d4-4d4e-bd18-4f80a7ae5ce1")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0107"
 			(at 46.99 78.74 0)
 			(effects
 				(font
@@ -4334,11 +4334,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "#PWR0128")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "#PWR0120")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -4353,7 +4353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa172dd2-cead-4609-b9f6-678bc9f1ef5b")
-		(property "Reference" "R55"
+		(property "Reference" "R52"
 			(at 122.174 60.452 0)
 			(effects
 				(font
@@ -4413,11 +4413,11 @@
 		(instances
 			(project "frodo_io_module"
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "R63")
+					(reference "R62")
 					(unit 1)
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "R55")
+					(reference "R52")
 					(unit 1)
 				)
 			)
