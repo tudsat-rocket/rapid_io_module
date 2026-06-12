@@ -8309,7 +8309,7 @@
 		)
 		(uuid "55160405-5656-45b1-b477-fd4645366cff")
 	)
-	(text "COM5\n-ADC"
+	(text "COM6\n-ADC"
 		(exclude_from_sim no)
 		(at 163.068 111.76 0)
 		(effects
@@ -24440,7 +24440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "5v"
 			(at 205.74 33.02 0)
 			(effects
 				(font
