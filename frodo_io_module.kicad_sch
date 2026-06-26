@@ -8724,6 +8724,16 @@
 		)
 		(uuid "ed89895d-cba8-4af3-ae13-bb2fb3b37cff")
 	)
+	(text "scl"
+		(exclude_from_sim no)
+		(at 17.018 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "02209b0d-5842-4371-854d-6e29831c41cd")
+	)
 	(text "Vehicle Bus Connectors"
 		(exclude_from_sim no)
 		(at 15.24 17.78 0)
@@ -8915,6 +8925,16 @@
 		)
 		(uuid "5af153ad-fb59-45fc-906e-2ca7166afc9d")
 	)
+	(text "scl"
+		(exclude_from_sim no)
+		(at 17.78 119.634 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60e3e4e1-fa44-448f-a47d-d345e431d35e")
+	)
 	(text "5A fused as fuses last \n~5s at 200% current and \n>4h at nominal current "
 		(exclude_from_sim no)
 		(at 46.228 151.892 0)
@@ -9031,6 +9051,16 @@
 		)
 		(uuid "8caede39-4cfc-4b33-b1e0-5a751d44a824")
 	)
+	(text "sda"
+		(exclude_from_sim no)
+		(at 18.034 122.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "90546543-33b1-41d2-a00e-c106a42497b5")
+	)
 	(text "5V Regulator"
 		(exclude_from_sim no)
 		(at 104.902 20.32 0)
@@ -9116,6 +9146,16 @@
 			(justify left bottom)
 		)
 		(uuid "b1b26575-0d4e-4992-90a5-53fb757291f7")
+	)
+	(text "sda"
+		(exclude_from_sim no)
+		(at 17.272 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b3a3e9d0-38d2-4550-9df2-935f3bfb931f")
 	)
 	(text "high current in"
 		(exclude_from_sim no)
@@ -25321,7 +25361,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 387.35 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -25354,7 +25394,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2911418"
+		(property "LCSC" "C720477"
 			(at 387.35 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -37054,7 +37094,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 280.67 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -37087,7 +37127,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2911418"
+		(property "LCSC" "C720477"
 			(at 280.67 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -40286,7 +40326,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 275.59 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -40319,7 +40359,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2911418"
+		(property "LCSC" "C720477"
 			(at 275.59 60.96 0)
 			(hide yes)
 			(show_name no)
