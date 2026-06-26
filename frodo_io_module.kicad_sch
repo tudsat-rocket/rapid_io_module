@@ -18545,7 +18545,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0ca1ce7c-7410-4cac-8603-f569caee06c4")
 		(property "Reference" "J7"
 			(at 159.512 88.392 0)
@@ -18591,17 +18591,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 160.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -19468,7 +19457,7 @@
 			)
 		)
 		(property "LCSC" "C440198"
-			(at 138.43 39.37 0)
+			(at 133.604 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20946,7 +20935,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "21f03c73-fc93-47ac-a320-a222d641f888")
 		(property "Reference" "J3"
 			(at 83.82 64.516 0)
@@ -20992,17 +20981,6 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 82.55 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
 			(at 82.55 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -21364,7 +21342,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "24982bb3-9e8c-4d6c-bcc3-3a7a1d5851eb")
 		(property "Reference" "J8"
 			(at 64.516 114.554 0)
@@ -21410,17 +21388,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 64.77 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
 			(at 64.77 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -22430,7 +22397,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 351.79 161.29 0)
+			(at 345.948 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22711,7 +22678,7 @@
 			)
 		)
 		(property "LCSC" "C440198"
-			(at 119.38 39.37 0)
+			(at 123.952 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23145,7 +23112,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 351.79 153.67 0)
+			(at 343.916 154.686 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23408,7 +23375,7 @@
 				)
 			)
 		)
-		(property "Value" "yellow"
+		(property "Value" "red"
 			(at 357.378 156.464 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23451,7 +23418,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2296"
+		(property "LCSC" "C2286"
 			(at 356.87 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -23657,7 +23624,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "37a7a2ea-7d00-40db-8275-c5d166104fc5")
 		(property "Reference" "J14"
 			(at 122.174 190.754 0)
@@ -23713,17 +23680,6 @@
 				)
 			)
 		)
-		(property "LCSC#" "x"
-			(at 124.46 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
 			(uuid "674853c9-8cd9-4bfb-9e94-7e86e8d658eb")
 		)
@@ -23754,7 +23710,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3a57fbcd-b27a-4ead-b8f9-764bbd075ef5")
 		(property "Reference" "J12"
 			(at 123.444 166.624 0)
@@ -23800,17 +23756,6 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 125.73 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
 			(at 125.73 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -24361,7 +24306,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "47255f94-deda-4b5e-9fff-0c540028da6b")
 		(property "Reference" "J13"
 			(at 140.462 171.196 90)
@@ -24410,17 +24355,6 @@
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 148.59 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
-			(at 148.59 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24708,7 +24642,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4c08732c-37ba-459d-aac4-aa02abc5b83a")
 		(property "Reference" "J6"
 			(at 102.108 88.392 0)
@@ -24754,17 +24688,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 102.87 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
 			(at 102.87 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -25107,7 +25030,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 351.79 146.05 0)
+			(at 343.916 146.812 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25956,7 +25879,7 @@
 				)
 			)
 		)
-		(property "Value" "green"
+		(property "Value" "red"
 			(at 357.378 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25999,7 +25922,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "LCSC" "C2286"
 			(at 356.87 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -26329,7 +26252,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5afd75a8-d2ac-4b61-8f6f-a2f6627c7deb")
 		(property "Reference" "J9"
 			(at 102.362 115.062 0)
@@ -26375,17 +26298,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 102.87 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
 			(at 102.87 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -26908,7 +26820,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "647bf5b2-7213-40e7-90f7-26232a65dab6")
 		(property "Reference" "L1"
 			(at 125.73 29.972 0)
@@ -28831,7 +28743,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7f3ef02b-baec-4c21-896a-68421c191ba6")
 		(property "Reference" "J1"
 			(at 41.91 22.606 0)
@@ -29954,7 +29866,7 @@
 			)
 		)
 		(property "LCSC" "C1623"
-			(at 182.88 41.91 0)
+			(at 185.928 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31241,10 +31153,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "930e362b-2f43-44e4-bb8f-bf132eaa4f9c")
 		(property "Reference" "R4"
-			(at 198.12 43.1799 0)
+			(at 196.85 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31255,7 +31166,7 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 198.12 45.7199 0)
+			(at 196.596 46.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31299,7 +31210,7 @@
 			)
 		)
 		(property "LCSC" "C25890"
-			(at 195.58 44.45 0)
+			(at 199.136 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31332,7 +31243,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "93398cf4-82b3-4dc4-8445-6a9ff598205a")
 		(property "Reference" "J11"
 			(at 27.686 161.544 0)
@@ -31583,7 +31494,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "97d056ad-c87e-46cd-bae3-5a942086365e")
 		(property "Reference" "J16"
@@ -31629,17 +31540,6 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 200.66 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
 			(at 200.66 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -32681,7 +32581,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 275.59 53.34 0)
+			(at 269.748 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33247,7 +33147,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ab2185e5-a39e-49b5-a29e-09c7c2033de1")
 		(property "Reference" "J5"
 			(at 64.008 88.138 0)
@@ -33293,17 +33193,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 64.77 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
 			(at 64.77 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -33513,7 +33402,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ac3b996c-e3a4-4103-8ebf-b025af09f1d2")
 		(property "Reference" "U1"
@@ -34668,7 +34557,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b84ac4aa-6658-4c07-8f83-e8e063d8c708")
 		(property "Reference" "J2"
 			(at 41.91 37.846 0)
@@ -35196,10 +35085,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bedaba2e-860a-48ec-8530-c24d431d39cf")
 		(property "Reference" "R1"
-			(at 198.12 35.5599 0)
+			(at 196.85 34.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36415,7 +36303,7 @@
 			)
 		)
 		(property "LCSC" "C440198"
-			(at 144.78 39.37 0)
+			(at 149.098 36.068 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36526,7 +36414,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d051d931-bfb6-4a8b-beef-65f53c2ec1d2")
 		(property "Reference" "J4"
 			(at 398.78 78.74 0)
@@ -36571,17 +36459,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 396.24 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
 			(at 396.24 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -37687,7 +37564,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dde653be-fc1d-4312-aad5-decaebaf61c2")
 		(property "Reference" "J10"
 			(at 161.29 115.062 0)
@@ -37733,17 +37610,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 161.29 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "x"
 			(at 161.29 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -37980,7 +37846,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 205.74 40.64 0)
+			(at 209.55 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38660,10 +38526,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb3cbf8c-8c86-4e29-abe6-43363e4fca63")
 		(property "Reference" "D2"
-			(at 207.518 44.8218 90)
+			(at 207.01 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38674,7 +38539,7 @@
 			)
 		)
 		(property "Value" "red"
-			(at 207.518 47.3587 90)
+			(at 207.01 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38751,7 +38616,7 @@
 			)
 		)
 		(property "LCSC" "C965799"
-			(at 205.74 45.72 0)
+			(at 210.312 48.006 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

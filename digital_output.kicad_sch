@@ -679,8 +679,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:DMG2302U"
+		(symbol "Transistor_FET:AO3400A"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -699,7 +700,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "DMG2302U"
+			(property "Value" "AO3400A"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -723,7 +724,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf"
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -735,7 +736,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23"
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -768,7 +769,7 @@
 					)
 				)
 			)
-			(symbol "DMG2302U_0_1"
+			(symbol "AO3400A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -912,7 +913,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -935,7 +936,7 @@
 					)
 				)
 			)
-			(symbol "DMG2302U_1_1"
+			(symbol "AO3400A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2237,7 +2238,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00295f54-602d-4970-91ba-45423510ad08")
 		(property "Reference" "Q1"
 			(at 49.657 39.8053 0)
@@ -2299,7 +2299,7 @@
 			)
 		)
 		(property "LCSC" "C560863"
-			(at 44.45 40.64 0)
+			(at 54.102 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2389,7 +2389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 22.86 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2433,19 +2433,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 21.59 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 21.59 67.31 0)
-			(hide yes)
+		(property "LCSC" "C25752"
+			(at 25.654 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2494,7 +2483,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 55.88 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2537,8 +2526,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 53.34 59.69 0)
+		(property "LCSC" "C25752"
+			(at 52.578 54.102 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2598,7 +2587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
+		(property "Footprint" "frodo_io_module:D_SOD-123FL"
 			(at 111.76 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2632,7 +2621,7 @@
 			)
 		)
 		(property "LCSC" " C64898"
-			(at 111.76 62.23 0)
+			(at 113.03 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2704,7 +2693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 62.23 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2748,19 +2737,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 60.96 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 60.96 60.96 0)
-			(hide yes)
+		(property "LCSC" "C25752"
+			(at 65.024 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2938,7 +2916,7 @@
 			)
 		)
 		(property "LCSC" "C25104"
-			(at 26.67 62.23 0)
+			(at 27.94 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3043,7 +3021,7 @@
 			)
 		)
 		(property "LCSC" " C64898"
-			(at 46.99 62.23 0)
+			(at 45.974 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3171,129 +3149,6 @@
 				)
 				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
 					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:DMG2302U")
-		(at 101.6 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "45a63702-bc1b-47e1-b843-4f5059c4c729")
-		(property "Reference" "Q4"
-			(at 106.807 61.3953 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMN2056U"
-			(at 99.06 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 106.68 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf"
-			(at 101.6 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23"
-			(at 101.6 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "C332302"
-			(at 101.6 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 101.6 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part#" "DMN2056U-7"
-			(at 101.6 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c62be7de-b3e0-43dd-8336-f21e72f8893f")
-		)
-		(pin "2"
-			(uuid "0abc130a-b159-4e72-ac29-58f1f6b3db60")
-		)
-		(pin "3"
-			(uuid "af6b0181-7e41-4a0d-897c-b0a1c6b2f6ef")
-		)
-		(instances
-			(project "frodo_io_module"
-				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "Q8")
-					(unit 1)
-				)
-				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -3607,6 +3462,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 35.56 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69db55bb-6878-4d88-8f2f-ac3796d911ac")
+		(property "Reference" "Q9"
+			(at 39.116 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 38.1 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 40.64 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 40.64 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 35.56 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 41.91 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ef476bf-5a9c-4559-8d0d-ac27b8d90e65")
+		)
+		(pin "3"
+			(uuid "07d45b59-3b8c-46e3-9165-76ff0e77079b")
+		)
+		(pin "1"
+			(uuid "7867afec-6469-43cf-910a-8e4062367da7")
+		)
+		(instances
+			(project "frodo_io_module"
+				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
+					(reference "Q10")
+					(unit 1)
+				)
+				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 53.34 66.04 90)
 		(unit 1)
@@ -3616,7 +3572,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "719477b2-5bce-4786-a415-aad27190119e")
 		(property "Reference" "D11"
 			(at 55.118 65.1418 90)
@@ -3707,7 +3662,7 @@
 			)
 		)
 		(property "LCSC" "C965799"
-			(at 53.34 66.04 0)
+			(at 51.562 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3813,7 +3768,7 @@
 			)
 		)
 		(property "LCSC" "C25104"
-			(at 92.71 62.23 0)
+			(at 92.71 55.372 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3853,6 +3808,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 101.6 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99f3be55-6e79-43d4-b736-a52413a14270")
+		(property "Reference" "Q11"
+			(at 105.156 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 104.14 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 106.68 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 106.68 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 101.6 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 107.696 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "523ac2f5-7cdf-4cba-9018-83e3ea2c11a0")
+		)
+		(pin "3"
+			(uuid "bb485fd4-3ebf-4077-a191-60557a846fef")
+		)
+		(pin "1"
+			(uuid "12d9c964-d336-4bda-bcbc-b1ef4eae71e8")
+		)
+		(instances
+			(project "frodo_io_module"
+				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
+					(reference "Q12")
+					(unit 1)
+				)
+				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 38.1 35.56 0)
 		(unit 1)
@@ -3873,7 +3929,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 41.148 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3916,8 +3972,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 38.1 35.56 0)
+		(property "LCSC" "C25752"
+			(at 31.496 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3955,7 +4011,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac00e443-8d35-4179-b703-aff1a7cc686d")
 		(property "Reference" "D12"
 			(at 121.158 65.1418 90)
@@ -4046,7 +4101,7 @@
 			)
 		)
 		(property "LCSC" "C965799"
-			(at 119.38 66.04 0)
+			(at 123.444 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4190,7 +4245,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 129.54 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4234,19 +4289,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 128.27 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 128.27 60.96 0)
-			(hide yes)
+		(property "LCSC" "C25752"
+			(at 134.366 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4295,7 +4339,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 107.188 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4339,7 +4383,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 104.14 35.56 0)
+			(at 98.806 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4451,129 +4495,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:DMG2302U")
-		(at 35.56 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d720c865-5c2f-43e3-ab7c-17363e212669")
-		(property "Reference" "Q3"
-			(at 40.767 61.3953 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMN2056U"
-			(at 33.02 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 40.64 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf"
-			(at 35.56 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23"
-			(at 35.56 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "C332302"
-			(at 35.56 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 35.56 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part#" "DMN2056U-7"
-			(at 35.56 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f1bd512e-174c-42c2-b02a-81d5a135e031")
-		)
-		(pin "2"
-			(uuid "39e12dd0-25fd-4180-9acd-1693c65805bd")
-		)
-		(pin "3"
-			(uuid "cc0e8e56-5b14-47fb-a853-89314285fa1b")
-		)
-		(instances
-			(project "frodo_io_module"
-				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/0f95e9ba-a3b8-427d-95e8-5ddc0cb3ef54"
-					(reference "Q7")
-					(unit 1)
-				)
-				(path "/c1ccca3c-4648-4b8e-86a1-690c24c5f13e/1daa12b0-ccec-42a7-b3b8-2333aafbd367"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 72.39 0)
 		(unit 1)
@@ -4678,7 +4599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 88.9 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4722,19 +4643,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 87.63 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 87.63 67.31 0)
-			(hide yes)
+		(property "LCSC" "C25752"
+			(at 81.788 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4866,7 +4776,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "12k"
 			(at 122.428 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4909,8 +4819,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 119.38 59.69 0)
+		(property "LCSC" "C25752"
+			(at 117.856 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -1183,7 +1183,7 @@
 			)
 		)
 		(property "LCSC" "C2058943"
-			(at 121.92 88.9 0)
+			(at 129.54 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1403,7 +1403,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 101.6 91.44 0)
+			(at 105.664 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1759,7 +1759,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 101.6 86.36 0)
+			(at 105.41 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
