@@ -1182,7 +1182,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2058943"
+		(property "LCSC" "C45351496"
 			(at 129.54 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1293,7 +1293,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" " C1525"
 			(at 128.27 77.47 0)
 			(hide yes)
 			(show_name no)

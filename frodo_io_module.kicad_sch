@@ -18096,7 +18096,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5674"
+		(property "LCSC" "C45783"
 			(at 234.95 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18299,7 +18299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 40.64 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18343,7 +18343,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C23162"
+		(property "LCSC" "C23162"
 			(at 39.37 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18850,7 +18850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 40.64 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18894,7 +18894,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C23162"
+		(property "LCSC" "C23162"
 			(at 39.37 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -18998,51 +18998,7 @@
 				)
 			)
 		)
-		(property "DigiKey#" ""
-			(at 223.52 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Everlight Elec"
-			(at 223.52 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part#" "19-213/RSC-BS2T2B/3T"
-			(at 223.52 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC#" "C474026"
-			(at 223.52 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
+		(property "LCSC" "C2286"
 			(at 223.52 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -19214,6 +19170,7 @@
 		)
 		(property "LCSC" "C14165"
 			(at 63.5 27.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19259,7 +19216,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 48.26 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19303,7 +19260,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C23162"
+		(property "LCSC" "C23162"
 			(at 46.99 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -19498,6 +19455,7 @@
 		)
 		(property "LCSC" "C440198"
 			(at 133.604 37.846 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19587,7 +19545,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" " C1525"
 			(at 284.48 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -19769,7 +19727,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C76991"
+		(property "LCSC" "C15525"
 			(at 182.88 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -20852,7 +20810,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C76946"
+		(property "LCSC#" "C32949"
 			(at 298.45 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -22104,6 +22062,7 @@
 		)
 		(property "LCSC" "C5140024"
 			(at 74.676 28.194 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22289,7 +22248,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2c94ed4d-b912-4ebd-a191-db91fb3c8734")
 		(property "Reference" "R48"
 			(at 278.13 260.35 0)
@@ -22604,7 +22563,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77020"
+		(property "LCSC" "C1525"
 			(at 250.19 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22719,6 +22678,7 @@
 		)
 		(property "LCSC" "C440198"
 			(at 123.952 42.926 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24190,7 +24150,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C114761"
+		(property "LCSC" "C25756"
 			(at 105.41 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -24293,7 +24253,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C76946"
+		(property "LCSC#" "C32949"
 			(at 273.05 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -25587,7 +25547,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" " C1525"
 			(at 284.48 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -25861,7 +25821,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C60133"
+		(property "LCSC#" "C15195"
 			(at 347.98 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -26065,7 +26025,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C60133"
+		(property "LCSC#" "C15195"
 			(at 392.43 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -26124,7 +26084,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "5k1"
 			(at 152.4 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26168,7 +26128,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C477765"
+		(property "LCSC" "C25905"
 			(at 151.13 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -26441,7 +26401,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" " C1525"
 			(at 322.58 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -27774,7 +27734,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" " C1525"
 			(at 273.05 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -29638,7 +29598,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" " C1525"
 			(at 299.72 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -30127,7 +30087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "4u7"
 			(at 269.24 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30171,7 +30131,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C368809"
+		(property "LCSC#" "C23733"
 			(at 266.7 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -30280,7 +30240,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" " C1525"
 			(at 224.79 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -30580,7 +30540,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" " C1525"
 			(at 276.86 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -30683,7 +30643,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C114761"
+		(property "LCSC" "C25756"
 			(at 135.89 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -30991,8 +30951,19 @@
 				)
 			)
 		)
-		(property "LCSC#" "C11702"
+		(property "LCSC" "C11702"
 			(at 127 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 127 95.25 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31977,7 +31948,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C114761"
+		(property "LCSC" "C25756"
 			(at 120.65 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -32243,6 +32214,7 @@
 		)
 		(property "LCSC" "C601098"
 			(at 88.9 38.1 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32923,7 +32895,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 377.19 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34109,7 +34081,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" " C1525"
 			(at 311.15 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -34212,7 +34184,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" " C1525"
 			(at 288.29 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -34920,7 +34892,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 213.36 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -34953,7 +34925,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C415703"
+		(property "LCSC" "C59461"
 			(at 213.36 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -36344,6 +36316,7 @@
 		)
 		(property "LCSC" "C440198"
 			(at 149.098 36.068 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38158,7 +38131,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 377.19 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38655,7 +38628,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965799"
+		(property "LCSC" "C2286"
 			(at 210.312 48.006 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38825,7 +38798,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22R"
 			(at 377.19 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39897,7 +39870,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C77020"
+		(property "LCSC#" " C1525"
 			(at 273.05 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -39956,7 +39929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "4k7"
 			(at 48.26 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40000,7 +39973,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C23162"
+		(property "LCSC" "C23162"
 			(at 46.99 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -40129,7 +40102,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f9100cb9-e159-43e1-ba12-5201626493fe")
 		(property "Reference" "R40"
 			(at 278.13 210.82 0)
@@ -40798,7 +40771,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5674"
+		(property "LCSC" "C45783"
 			(at 226.06 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
