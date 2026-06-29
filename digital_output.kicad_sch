@@ -3248,7 +3248,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "508638a8-b5ff-431e-b4f7-3cfd14c84653")
 		(property "Reference" "Q2"
 			(at 114.427 39.8053 0)
@@ -3310,7 +3309,7 @@
 			)
 		)
 		(property "LCSC" "C560863"
-			(at 109.22 40.64 0)
+			(at 120.142 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4294,7 +4293,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25752"
 			(at 98.806 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)

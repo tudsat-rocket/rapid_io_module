@@ -19952,7 +19952,7 @@
 			)
 		)
 		(property "LCSC" "C57525"
-			(at 60.96 163.83 0)
+			(at 60.706 167.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23262,7 +23262,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "5k1"
 			(at 343.1286 194.7422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23328,7 +23328,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C25905"
 			(at 341.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -25155,7 +25155,7 @@
 			)
 		)
 		(property "Value" "high_current2"
-			(at 55.626 167.894 0)
+			(at 55.372 169.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26719,7 +26719,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 343.1286 202.3622 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26785,7 +26785,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25905"
 			(at 341.63 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -30863,7 +30863,7 @@
 			)
 		)
 		(property "LCSC" "C57525"
-			(at 60.96 173.99 0)
+			(at 61.214 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35323,7 +35323,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C8345"
+		(property "LCSC" "C8345"
 			(at 334.01 86.36 0)
 			(hide yes)
 			(show_name no)
